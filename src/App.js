@@ -1,12 +1,8 @@
-import {Routes, Route} from "react-router-dom";
-import Form from "./components/Form";
+import React from 'react'
+import Login from './components/screens/Login'
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/reset-password" element={<Form />} />
-    </Routes>
-  );
+  return <Login />
 }
 
-export default App;
+export default App
